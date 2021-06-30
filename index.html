@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Visão Geral - Visão Geral</title>
+
+        <meta charset="utf-8">
+        <meta name="author" content="Thiago Momberg Plens">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/appcomponents.css">
+    </head>
+    <body class="mb-5">
+        <header>
+            <div class="d-flex appbar-component text-center">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-list" aria-controls="menu-list" aria-expanded="false" aria-label="Menu"><i class="bi bi-list"></i></button>
+                <span class="flex-fill align-self-center">Projeto Health Track</span>
+            </div>
+            <div id="menu-list" class="collapse menu fixed-top fixed-bottom p-2 bg-light">
+                <ul>
+                    <li><a href="/visao_geral.html" target="conteudo-iframe"><button class="text-start" data-bs-toggle="collapse" data-bs-target="#menu-list" aria-controls="menu-list" aria-expanded="false" aria-label="Menu"><img src="/imgs/home_icon.svg" class="img-info-btn">Visão Geral</button></a></li>
+                    <li><a href="/reg_altura.html" target="conteudo-iframe"><button class="text-start" data-bs-toggle="collapse" data-bs-target="#menu-list" aria-controls="menu-list" aria-expanded="false" aria-label="Menu"><img src="/imgs/altura_icon.svg" class="img-info-btn">Registrar Altura</button></a></li>
+                    <li><a href="/hist_peso.html" target="conteudo-iframe"><button class="text-start" data-bs-toggle="collapse" data-bs-target="#menu-list" aria-controls="menu-list" aria-expanded="false" aria-label="Menu"><img src="/imgs/peso_icon.svg" class="img-info-btn">Registrar Peso</button></a></li>
+                    <li><a href="/hist_alim.html" target="conteudo-iframe"><button class="text-start" data-bs-toggle="collapse" data-bs-target="#menu-list" aria-controls="menu-list" aria-expanded="false" aria-label="Menu"><img src="/imgs/alimentacao_icon.svg" class="img-info-btn">Registrar Alimentação</button></a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="container py-3">
+                <div class="bg-light rounded-2 p-2">
+                    <span><label class="text-warning text-center">Este é um projeto em desenvolvimento, caso seja do programa de testes realize o login!</label></span>
+                    <form action="/inicio.html" method="POST">
+                        <div>
+                            <label for="user">Usuario:</label>
+                            <input type="text" name="txt_user" class="form-control">
+                        </div>
+                        <div>
+                            <label for="user">Senha:</label>
+                            <input type="password" name="txt_pass" class="form-control">
+                        </div>
+                        <button type="submit" class="mt-1 btn-dark rounded-2">Entrar</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <script src="/js/bootstrap/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

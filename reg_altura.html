@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Visão Geral - Visão Geral</title>
+
+        <meta charset="utf-8">
+        <meta name="author" content="Thiago Momberg Plens">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/appcomponents.css">
+    </head>
+    <body>
+        <form action="/altera_config.html" method="POST" class="p-1 form-control">
+            <div class="row m-1">
+                <div class="col row">
+                    <div class="col-auto align-self-center"><label for="prop_altura">Altura: </label></div>
+                    <div class="col align-self-center"><input id="prop_altura" type="number" value="1.81" min="1.1" max="2.1" step=".01" class="form-control"></div>
+                </div>
+                <div class="col-auto align-self-center"><button type="submit" class="btn-dark rounded-2">Alterar</button></div>
+            </div>
+        </form>
+    </body>
+</html>
